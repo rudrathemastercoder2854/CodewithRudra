@@ -1,0 +1,139 @@
+
+.container{
+    background-image:url("46b9f93ae74dd8c3d9ba5c6d5d2d938b.jpg");
+    width:1240px;
+    margin-left:-7px;
+    margin-top: -19px;
+}
+body{
+   background-image:url("mUrJDA.jpg");
+   background-size: cover;
+    color:blueviolet;
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Roboto Slab', serif;
+}
+ nav ul li {
+    text-decoration:none;
+    list-style: none;
+   display: inline-flex;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#fff;
+    margin: 10px;
+}
+ .menu{
+    margin-left: 420px;
+    margin-top:-55px;
+}
+.button{
+    margin-left:1100px;
+    margin-top: -50px;
+}
+#hr{
+    height: 0.000001px;   
+}
+body h2{
+    color:#9370DB;
+}
+.button button {
+   color:white; 
+   background-color:indigo;
+   border:0;
+   padding: 8px;
+   border-radius: 5px;
+}
+.button button:hover{
+    background-color: #9370DB;
+}
+nav ul li a:hover{
+    color:#9370DB;
+    font-size: 15px;
+    transition-property: inherit;
+}
+.course{
+    margin-top: -15px;
+    
+}
+.home {
+    margin-right:1100px;
+    margin-top:-40px;
+    
+}
+.brand{
+    margin-left: 1000px;
+    margin-top: -25px;
+    letter-spacing: 10px;
+}
+
+#about-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 12%;
+    
+}
+.about-left img{
+    width: 420px;
+    height: auto;
+    transform: translateY(50px);
+}
+.about-right {
+    width: 54%;
+    margin-right: 200px;
+}
+
+.about-right ul li {
+    display: flex;
+    align-items: center;
+}
+
+.about-right h1 {
+    color:#9370DB;
+    font-size: 37px;
+    margin-bottom: 5px;
+}
+
+.about-right p {
+    color: white;
+    line-height: 26px;
+    font-size: 15px;
+}
+
+.about-right .address {
+    margin: 25px 0;
+}
+
+.about-right .address ul li {
+    margin-bottom: 5px;
+}
+
+.address .address-logo {
+    margin-right: 15px;
+    color:#9370DB;
+}
+
+.address .saprater {
+    margin: 0 35px;
+}
+
+.about-right .expertise ul {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.expertise h3 {
+    margin-bottom: 10px;
+}
+
+.expertise .expertise-logo {
+    font-size: 19px;
+    margin-right: 10px;
+    color:#9370DB;
+}
+

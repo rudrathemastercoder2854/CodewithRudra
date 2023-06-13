@@ -1,0 +1,172 @@
+.main{
+    background-image:url("46b9f93ae74dd8c3d9ba5c6d5d2d938b.jpg");
+    width:1240px;
+    margin-left:-7px;
+   margin-top:-19px;
+   
+}
+body{
+   background-image:url("mUrJDA.jpg");
+   background-size: cover;
+    color:blueviolet;
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Roboto Slab', serif;
+}
+ nav ul li {
+    text-decoration:none;
+    list-style: none;
+   display: inline-flex;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#fff;
+    margin: 10px;
+}
+ .menu{
+    margin-left: 420px;
+    margin-top:-55px;
+}
+.button{
+    margin-left:1100px;
+    margin-top: -50px;
+}
+#hr{
+    height: 0.000001px;   
+}
+body h2{
+    color:#9370DB;
+}
+.button button {
+   color:white; 
+   background-color:indigo;
+   border:0;
+   padding: 8px;
+   border-radius: 5px;
+}
+.button button:hover{
+    background-color: #9370DB;
+}
+nav ul li a:hover{
+    color:#9370DB;
+    font-size: 15px;
+    transition-property: inherit;
+}
+.course{
+    margin-top: -15px;
+    
+}
+.home {
+    margin-right:1100px;
+    margin-top:-40px;
+    
+}
+.brand{
+    margin-left: 1000px;
+    margin-top: -25px;
+    letter-spacing: 10px;
+}
+
+.container1{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background-image: url("mUrJDA.jpg");
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-left: 600px;
+    margin-top: -300px;
+}
+.container1 .skill-box{
+    width: 100%;
+    margin: 25px 0;
+}
+.skill-box .title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color:#9370DB;
+}
+.skill-box .skill-bar{
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0,0,0,0.1);
+}
+.skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    border-radius: 6px;
+    background:indigo;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+.skill-per.css{
+    width: 90%;
+    animation-delay: 0.1s;
+}
+.skill-per.javascript{
+    width: 80%;
+    animation-delay: 0.2s;
+}
+.skill-per.nodejs{
+    width: 100%;
+    animation-delay: 0.3s;
+}
+@keyframes progress {
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background:indigo;
+    z-index: 1;
+}
+.tooltip::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    background-color: indigo;
+    transform: translateX(-50%) rotate(45deg);
+
+}
+#Capture1{
+    width: 200px;
+    
+}
+#Capture{
+    width: 200px;
+}
+.certificate{
+    margin-top: -100px;
+    margin-left: 50px;
+   padding: 20px;
+}
+.footer h2{
+    margin-left: 400px;
+    margin-bottom: -25px;
+}
+.footer span{
+    margin-left: 600px;
+    margin-top: 20px;
+}

@@ -1,0 +1,237 @@
+
+.container{
+    background-image:url("46b9f93ae74dd8c3d9ba5c6d5d2d938b.jpg");
+    width:1240px;
+    margin-left:-7px;
+    margin-top: -19px;
+}
+body{
+   background-image:url("mUrJDA.jpg");
+   background-size: cover;
+    color:blueviolet;
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Roboto Slab', serif;
+}
+ nav ul li {
+    text-decoration:none;
+    list-style: none;
+   display: inline-flex;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#fff;
+    margin: 10px;
+}
+ .menu{
+    margin-left: 420px;
+    margin-top:-55px;
+}
+.button{
+    margin-left:1100px;
+    margin-top: -50px;
+}
+#hr{
+    height: 0.000001px;   
+}
+body h2{
+    color:#9370DB;
+}
+.button button {
+   color:white; 
+   background-color:indigo;
+   border:0;
+   padding: 8px;
+   border-radius: 5px;
+}
+.button button:hover{
+    background-color: #9370DB;
+}
+nav ul li a:hover{
+    color:#9370DB;
+    font-size: 15px;
+    transition-property: inherit;
+}
+.course{
+    margin-top: -15px;
+    
+}
+.home {
+    margin-right:1100px;
+    margin-top:-40px;
+    
+}
+.brand{
+    margin-left: 1000px;
+    margin-top: -25px;
+    letter-spacing: 10px;
+}
+.welcome h1{
+    color: #fff;
+    font-size:30px;
+}
+.welcome p {
+   color: #9370DB; 
+   font-size: 30px;
+   margin-left:180px;
+   margin-top:-60px;
+}
+.text-3{
+    color: white;
+    font-size: 25px;
+    margin-top: -20px;
+    margin-left:60px;
+}
+.typing{
+    color:#9370DB;
+}
+
+.welcome{
+    margin-left: 62px;
+}
+.quote{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    margin-left: 60px;
+}
+.macbook img{
+    width:500px;
+}
+.macbook{
+    margin-left: 650px;
+    margin-top: -280px;
+}
+#button_login{
+    background-color:indigo;
+    padding: 10px;
+    border: 0;
+    color:#fff;
+    border-radius:2px;
+    width:100px;
+}
+#button_login:hover{
+    background-color: #9370DB;
+}
+.python img{
+   width:350px; 
+   border-radius: 20px;
+  height: 200px;
+}
+.python h2{
+    margin-left: 90px;
+    margin-top: -5px;
+}
+.python p{
+    margin-left: 30px;
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.python{
+    background-image:url("46b9f93ae74dd8c3d9ba5c6d5d2d938b.jpg");
+    width:350px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+#Python_button{
+    padding: 10px;
+    background-color: indigo;
+    color: #fff;
+    border: 0;
+    margin-left: 110px;
+    border-radius:10px;
+}
+#Python_button:hover{
+    background-color: #9370DB;
+}
+.C_programming img{
+    width:350px; 
+    border-radius: 20px;
+   height:200px;
+ }
+ .C_programming h2{
+     margin-left: 120px;
+     margin-top: -5px;
+ }
+ .C_programming p{
+     margin-left: 30px;
+     font-size:20px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .C_programming{
+     background-image:url("46b9f93ae74dd8c3d9ba5c6d5d2d938b.jpg");
+     width:350px;
+     border-radius: 20px;
+     padding: 10px;
+     margin-left: 425px;
+     margin-top: -440px;
+     
+ }
+ #c_button{
+     padding: 10px;
+     background-color: indigo;
+     color: #fff;
+     border: 0;
+     margin-left: 110px;
+     border-radius:10px;
+ }
+ #c_button:hover{
+     background-color: #9370DB;
+ }
+ .cplus img{
+    width:350px; 
+    border-radius: 20px;
+   height:200px;
+ }
+ .cplus h2{
+     margin-left: 90px;
+     margin-top: -5px;
+ }
+ .cplus p{
+     margin-left: 30px;
+     font-size:20px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .cplus{
+     background-image:url("46b9f93ae74dd8c3d9ba5c6d5d2d938b.jpg");
+     width:350px;
+     border-radius: 20px;
+     padding: 10px;
+     margin-left: 825px;
+     margin-top: -440px;
+     
+ }
+ #cplus_button{
+     padding: 10px;
+     background-color: indigo;
+     color: #fff;
+     border: 0;
+     margin-left: 110px;
+     border-radius:10px;
+ }
+ #cplus_button:hover{
+     background-color: #9370DB;
+ }
+ .quoteone{
+background-image: url("46b9f93ae74dd8c3d9ba5c6d5d2d938b.jpg");
+margin-left: -100px;
+ }
+ .quoteone h4 {
+    font-size: 15px;
+    
+ }
+ .quoteone h5{
+    margin-top:-10px;
+ }
+
+
+.footer h2{
+    margin-left: 400px;
+    margin-bottom: -25px;
+}
+.footer span{
+    margin-left: 600px;
+    margin-top: 20px;
+}

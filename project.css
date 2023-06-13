@@ -1,0 +1,156 @@
+
+.container{
+    background-image:url("46b9f93ae74dd8c3d9ba5c6d5d2d938b.jpg");
+    width:1240px;
+    margin-left:-7px;
+    margin-top: -19px;
+}
+body{
+   background-image:url("mUrJDA.jpg");
+   background-size: cover;
+    color:blueviolet;
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Roboto Slab', serif;
+}
+ nav ul li {
+    text-decoration:none;
+    list-style: none;
+   display: inline-flex;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#fff;
+    margin: 10px;
+}
+ .menu{
+    margin-left: 420px;
+    margin-top:-55px;
+}
+.button{
+    margin-left:1100px;
+    margin-top: -50px;
+}
+#hr{
+    height: 0.000001px;   
+}
+body h2{
+    color:#9370DB;
+}
+.button button {
+   color:white; 
+   background-color:indigo;
+   border:0;
+   padding: 8px;
+   border-radius: 5px;
+}
+.button button:hover{
+    background-color: #9370DB;
+}
+nav ul li a:hover{
+    color:#9370DB;
+    font-size: 15px;
+    transition-property: inherit;
+}
+.course{
+    margin-top: -15px;
+    
+}
+.home {
+    margin-right:1100px;
+    margin-top:-40px;
+    
+}
+.brand{
+    margin-left: 1000px;
+    margin-top: -25px;
+    letter-spacing: 10px;
+}
+* {
+    
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column {
+    width: 100%;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+  }
+  .card {
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(indigo 50%,#9370DB);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color:#9370DB;
+    margin: 1em 0;
+  }
+  p {
+    color:white;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+  }
+  .icon-wrapper {
+    background-color:#9370DB;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
+  .card:hover {
+    background-position: 0 100%;
+  }
+  .card:hover .icon-wrapper {
+    background-color:#9370DB;
+    color:white;
+  }
+  .card:hover h3 {
+    color:black;
+  }
+  .card:hover p {
+    color: black;
+  }
+  @media screen and (min-width: 768px) {
+    section {
+      padding: 0 2em;
+    }
+    .column {
+      flex: 0 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    section {
+      padding: 1em 3em;
+    }
+    .column {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+  }
